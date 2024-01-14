@@ -1,0 +1,56 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    max-width: 930px;
+    margin: 0 auto;
+}
+/* Common Css Stop */
+/* =============| Start |============ */
+/* form */
+.form-field input{
+    padding: 0.9em .9em;
+    padding-right: 2rem;
+    margin-bottom: 1em;
+} 
+.button-field button{
+    padding: 0.9em 3em;
+    background: #547852;
+    border: none;
+    border-radius: 1em;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.button-field button:hover{
+    background: #709e6e;
+    color: #0f0f0f;
+}
+#user_err,#email_err,#pass_err,#cpass_err{
+    font-size: 0.7em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    color: #d62f2f;
+}
+.pass-field,.cpass-field{
+    position: relative;
+}
+.pass-field #pass_show,.cpass-field #cpass_show{
+    position: absolute;
+    top: 15px;
+    left: 10.7em;
+    border: 0;
+    background: transparent;
+    color: #1a1818;
+}
