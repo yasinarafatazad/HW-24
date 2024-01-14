@@ -36,6 +36,10 @@ a{
     background: #709e6e;
     color: #0f0f0f;
 }
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
 #user_err,#email_err,#pass_err,#cpass_err{
     font-size: 0.7em;
     margin-top: -1em;
